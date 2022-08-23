@@ -2,8 +2,8 @@
 	background: #f4f4f4;
 	color: #555;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 16px;
-	line-height: 1.6em;
+	font-size: 30px;
+	line-height: 12em;
 	margin: 0;
 	
 }
@@ -18,6 +18,7 @@
 	color: #fff;
 	text-align: center;
 }
+
 
 #me{
 	width: 400;
@@ -56,6 +57,11 @@
 
 #Showcase{
 text-align: center;
+border: 10px solid;
+margin: 20px;
+padding: 20px;
+font-size: 20px;
+background: beige;
 }
 
 #interests-showcase{
@@ -65,4 +71,21 @@ text-align: center;
 #Floating-button{
 	position: fixed;
 	top: 400px;
+}
+#main{
+	float: left;
+	width: 70%;
+	padding: 15px;
+	box-sizing: border-box;
+
+}
+
+#sidebar{
+	float: right;
+	width: 30%;
+	padding: 15px;
+	box-sizing: border-box;
+	background: #333;
+	color: #fff;
+
 }

@@ -1,0 +1,68 @@
+.body{
+	background: #f4f4f4;
+	color: #555;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 0;
+	
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+#main-header{
+	background: teal;
+	color: #fff;
+	text-align: center;
+}
+
+#me{
+	width: 400;
+	height: 400;
+	border: 1px solid #000;
+	margin-top: 30px;
+	background-image: url('../images/me.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: static;
+
+
+}
+#nav{
+	background: #333;
+	color: #fff;
+	text-align: center;
+
+}
+#nav ul{
+	padding: 0;
+	list-style: none;
+}
+
+#nav li{
+	display: inline;
+
+}
+#nav a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
+
+}
+
+#Showcase{
+text-align: center;
+}
+
+#interests-showcase{
+	text-align: center;
+}
+
+#Floating-button{
+	position: fixed;
+	top: 400px;
+}
